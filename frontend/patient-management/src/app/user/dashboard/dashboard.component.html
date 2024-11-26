@@ -1,0 +1,8 @@
+<ul>
+    <li *ngFor="let appointment of appointments">
+      {{ appointment }}  <!-- Displaying appointment -->
+    </li>
+  </ul>
+  
+  <p *ngIf="appointments.length === 0">No upcoming appointment...</p>
+  
